@@ -1,0 +1,15 @@
+[package]
+name = "delayed-assert"
+description = "A simple library for delaying asserts."
+documentation = "https://docs.rs/delayed-assert"
+homepage = "https://github.com/Elinvynia/delayed-assert"
+repository = "https://github.com/Elinvynia/delayed-assert.git"
+keywords = ["delayed-assert", "assert", "testing"]
+authors = ["Elinvynia <59487684+Elinvynia@users.noreply.github.com>"]
+readme = "README.md"
+license = "MIT/Apache-2.0"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+truthy = "1.1"
