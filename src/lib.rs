@@ -71,5 +71,8 @@ impl DelayedAssert {
         }
 
         println!("In total {}/{} asserts failed.", length, self.asserts);
+        if length > 0 {
+            panic!("Some asserts failed!")
+        }
     }
 }
